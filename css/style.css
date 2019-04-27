@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+	background-image: url(../image/img1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+} 
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+	margin-right: 40px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 0.2px;
+	transition: 0.5s ease;
+}
+ 
+ul li a.active{
+	border-bottom: 2px solid white;
+	color: white;
+}
+
+ul li a.button{
+	border: 1px solid white;
+	padding: 2px 20px;
+	border-radius: 3px;
+	color: white;
+}
+
+ul li a.button:hover{
+	background-color: white;
+	color: black;
+	transition: 1s;
+}
+
+.logo img{
+	height: 25%;
+	width: 20%;
+	position: absolute;
+	float: left;
+}
+
+.title{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	font-size: 55px;
+	font-weight: 20px;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.title p{
+	font-size: 18px;
+	text-align: center;
+	color: white;
+}
